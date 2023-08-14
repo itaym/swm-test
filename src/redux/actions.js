@@ -9,9 +9,9 @@ export const getFavorites = createAsyncThunk(
     async () => {
         try {
             const favorites = localStorage.getItem('favorites')
-            return { favorites: JSON.parse(favorites) }
+            return { favorites: JSON.parse(favorites) || {} }
         }
-        catch { return  { favorites: [] } }
+        catch { return  { favorites: {} } }
     }
 )
 

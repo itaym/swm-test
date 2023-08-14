@@ -2,7 +2,7 @@ import { createReducer } from '@reduxjs/toolkit'
 import * as actions from './actions'
 
 const initialState = {
-    favorites: [],
+    favorites: {},
     shows: [],
     error: '',
 }
