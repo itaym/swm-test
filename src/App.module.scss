@@ -1,0 +1,29 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.header {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 100px;
+}
+
+.hold-test {
+  background-color: #5f9ea0;
+  min-width: 400px;
+  max-width: 400px;
+}
+
+.split {
+  display:flex;
+}
+.split > div {
+  flex: 0.85;
+}
+.separator {
+  flex: 0.1;
+  min-width: 8px;
+}
+
